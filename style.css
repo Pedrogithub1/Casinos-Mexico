@@ -42,7 +42,7 @@ nav .container .row a{
 
 /* Imagen section */
 .section .imagen{
-    background-image: url(/img/casino.jpg);
+    background-image: url(./img/casino.jpg);
     top: 120px;
     height: 360px;
     background-size: cover;
