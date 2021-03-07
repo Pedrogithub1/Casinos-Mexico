@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:wheat;
+}
+
+/* header */
+.header{
+    background: linear-gradient(to right, #4e3bf7, #54bbff);
+}
+
+.header h1{
+    font-size: 2rem;
+}
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+/* nav */
+
+nav .container .row a:hover{
+    font-weight: bold;
+}
+
+nav .container .row a{
+    overflow: hidden;
+}
+
+.navegation{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 45px;
+    box-shadow: #424450 3px 2px 8px;
+}
+
+/* Imagen section */
+.section .imagen{
+    background-image: url(/img/casino.jpg);
+    top: 120px;
+    height: 360px;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.section .imagen::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.3;
+    z-index: -1;  
+}
+
+.section .imagen h1{
+    padding-top: 150px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Detalles */
+.detalles{
+    margin-top: 150px;
+}
+
+.detalles .detalleInfo{
+    padding-top: 80px;
+}
+
+.detalles img{
+    width: 400px;
+}
+
+/* Juegos */
+#juegos .juego{
+    padding-top: 80px;
+}
+
+#juegos .game, .game2{
+    transition: 1s;
+}
+
+#juegos .game:hover{
+    transform: translate(10px);
+}
+
+#juegos .game2:hover{
+    transform: translateY(-10px);
+}
+
+/* Como jugar */
+.comoJugar{
+    margin-top: 50px;
+}
+
+.comoJugar .jugarInfo{
+    padding-top: 80px;
+}
+
+/* Drag and Drop */
+#cajasoltar{
+    margin: 10px;
+    border: 1px solid #999999;
+}
+
+#cajaimagenes{
+    float: left;
+    margin: 10px;
+}
+
+#cajaimagenes > img{
+    float: left;
+    padding: 5px;
+}
+
+/* Jugar poker */
+.infoJuegos{
+    padding-top: 100px;
+}
+
+/* Contacto */
+.contact{
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.contact .redSocial{
+    transition: 1s ease;
+}
+
+.contact .redSocial:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 8px 5px #888888;
+    border-radius: 25px;
+}
